@@ -1,15 +1,18 @@
 Package: nonparaeff
 Version: 0.5-13
-Date: 2022-06-20
+Date: 2022-06-21
 Title: Nonparametric Methods for Measuring Efficiency and Productivity
-Authors@R: c(
-  person("Dong-hyun", "Oh", email = "oh.donghyun77@gmail.com", role = c("aut", "cre")),
-  person("Dukrok", "Suh", email = "dukrok@kist.re.kr", role = "aut"))
+Author: Dong-hyun Oh <oh.donghyun77@gmail.com>,
+	Dukrok Suh <dukrok@kist.re.kr>
+Maintainer: Dong-hyun Oh <oh.donghyun77@gmail.com>
 Description: Efficiency and productivity indices are measured using this package. This package contains functions for measuring efficiency and productivity of decision making units (DMUs) under the framework of Data Envelopment Analysis (DEA) and its variations.
-Imports: geometry, Hmisc, lpSolve
-Suggests: pwt, psych
+Imports:
+	geometry,
+	Hmisc,
+	lpSolve
+Suggests:
+	pwt,
+	psych
 License: GPL (>= 2)
 URL: https://www.r-project.org
-Author: Dong-hyun Oh <oh.donghyun77@gmail.com>, with Dukrok Suh
-Maintainer: Dong-hyun Oh <oh.donghyun77@gmail.com>
 Repository: CRAN
